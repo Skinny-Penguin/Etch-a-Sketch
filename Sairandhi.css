@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.center{
+  
+    height: 100vw;
+    background-color: rgb(40, 23, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: rgb(190, 129, 72);
+    height: 640px;
+    width: 640px;
+    display: flex;
+    flex-wrap: wrap;
+    /* overflow:hidden; */
+
+    
+}
+.box{
+      background-color: aqua;
+}
+.controls{
+    position: absolute;
+    top: 75px;
+    left: 230px;
+    color: antiquewhite;
+
+}
+.controls button{
+    background-color: antiquewhite;
+    padding: 3px;
+    border-radius: 5px;
+}
