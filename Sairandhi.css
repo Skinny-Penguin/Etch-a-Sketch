@@ -17,6 +17,8 @@
   width: 640px;
   display: flex;
   flex-wrap: wrap;
+  overflow: hidden;
+  z-index: 3;
 }
 .box {
   background-color: aqua;
